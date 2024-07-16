@@ -26,8 +26,8 @@ quiz_questions = [
     # Learners can add more questions here following the same structure
 ]
 
-# Add the user's score
-user_score = 0
+# Add score
+score = 0
 
 # Loop through each question
 for question in quiz_questions:
@@ -49,6 +49,7 @@ for question in quiz_questions:
 # Goodbye message
 print("Thanks for playing the Pub Quiz!")
 
-# Display the final score
+# Display score
 print(f"Your total score: {user_score}/{len(quiz_questions)}")
+### test
 
