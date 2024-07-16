@@ -51,4 +51,5 @@ print("Thanks for playing the Pub Quiz!")
 
 # Display the final score
 print(f"Your total score: {user_score}/{len(quiz_questions)}")
+#comment
 
