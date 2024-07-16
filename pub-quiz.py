@@ -42,7 +42,7 @@ for question in quiz_questions:
     # Check if the answer is correct
     if user_answer == question["answer"]:
         print("Correct!")
-        user_score =+ 1
+        user_score =+1
     else:
         print(f"Wrong! The correct answer was {question['answer']}.")
 
